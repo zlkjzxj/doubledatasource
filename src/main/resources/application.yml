@@ -1,0 +1,14 @@
+
+datasource:
+  ds0:
+    type: org.apache.commons.dbcp2.BasicDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/ds0?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  ds1:
+    type: org.apache.commons.dbcp2.BasicDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/ds1?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
